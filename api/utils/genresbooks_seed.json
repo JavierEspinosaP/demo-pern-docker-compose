@@ -1,0 +1,167 @@
+[
+    {
+        "GenreId": 1,
+        "BookId": 1
+    },
+    {
+        "GenreId": 2,
+        "BookId": 2
+    },
+    {
+        "GenreId": 3,
+        "BookId": 3
+    },
+    {
+        "GenreId": 4,
+        "BookId": 4
+    },
+    {
+        "GenreId": 5,
+        "BookId": 5
+    },
+    {
+        "GenreId": 6,
+        "BookId": 6
+    },
+    {
+        "GenreId": 7,
+        "BookId": 7
+    },
+    {
+        "GenreId": 8,
+        "BookId": 8
+    },
+    {
+        "GenreId": 9,
+        "BookId": 9
+    },
+    {
+        "GenreId": 10,
+        "BookId": 10
+    },
+    {
+        "GenreId": 6,
+        "BookId": 11
+    },
+    {
+        "GenreId": 7,
+        "BookId": 12
+    },
+    {
+        "GenreId": 8,
+        "BookId": 13
+    },
+    {
+        "GenreId": 9,
+        "BookId": 14
+    },
+    {
+        "GenreId": 10,
+        "BookId": 15
+    },
+    {
+        "GenreId": 1,
+        "BookId": 16
+    },
+    {
+        "GenreId": 2,
+        "BookId": 17
+    },
+    {
+        "GenreId": 3,
+        "BookId": 18
+    },
+    {
+        "GenreId": 4,
+        "BookId": 19
+    },
+    {
+        "GenreId": 5,
+        "BookId": 20
+    },
+    {
+        "GenreId": 6,
+        "BookId": 21
+    },
+    {
+        "GenreId": 7,
+        "BookId": 22
+    },
+    {
+        "GenreId": 8,
+        "BookId": 23
+    },
+    {
+        "GenreId": 9,
+        "BookId": 24
+    },
+    {
+        "GenreId": 10,
+        "BookId": 25
+    },
+    {
+        "GenreId": 5,
+        "BookId": 26
+    },
+    {
+        "GenreId": 2,
+        "BookId": 27
+    },
+    {
+        "GenreId": 3,
+        "BookId": 28
+    },
+    {
+        "GenreId": 7,
+        "BookId": 29
+    },
+    {
+        "GenreId": 7,
+        "BookId": 30
+    },
+    {
+        "GenreId": 3,
+        "BookId": 31
+    },
+    {
+        "GenreId": 4,
+        "BookId": 32
+    },
+    {
+        "GenreId": 1,
+        "BookId": 33
+    },
+    {
+        "GenreId": 2,
+        "BookId": 34
+    },
+    {
+        "GenreId": 2,
+        "BookId": 35
+    },
+    {
+        "GenreId": 8,
+        "BookId": 36
+    },
+    {
+        "GenreId": 9,
+        "BookId": 37
+    },
+    {
+        "GenreId": 5,
+        "BookId": 38
+    },
+    {
+        "GenreId": 10,
+        "BookId": 39
+    },
+    {
+        "GenreId": 7,
+        "BookId": 40
+    },
+    {
+        "GenreId": 2,
+        "BookId": 41
+    }
+]
+

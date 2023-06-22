@@ -1,0 +1,207 @@
+[
+    {
+        "name": "El código Da Vinci",
+        "price": 9.99,
+        "genreId": 1
+    },
+    {
+        "name": "Harry Potter y la piedra filosofal",
+        "price": 19.95,
+        "genreId": 2
+    },
+    {
+        "name": "Dune",
+        "price": 12.99,
+        "genreId": 3
+    },
+    {
+        "name": "Orgullo y prejuicio",
+        "price": 8.95,
+        "genreId": 4
+    },
+    {
+        "name": "El nombre de la rosa",
+        "price": 10.99,
+        "genreId": 5
+    },
+    {
+        "name": "La vida de Pi",
+        "price": 9.99,
+        "genreId": 6
+    },
+    {
+        "name": "Sapiens: De animales a dioses",
+        "price": 22.95,
+        "genreId": 7
+    },
+    {
+        "name": "El resplandor",
+        "price": 8.99,
+        "genreId": 8
+    },
+    {
+        "name": "Guía del autoestopista galáctico",
+        "price": 11.95,
+        "genreId": 9
+    },
+    {
+        "name": "Los hombres que no amaban a las mujeres",
+        "price": 7.95,
+        "genreId": 10
+    },
+    {
+        "name": "Steve Jobs: La biografía",
+        "price": 15.99,
+        "genreId": 6
+    },
+    {
+        "name": "La caída de los gigantes",
+        "price": 18.99,
+        "genreId": 7
+    },
+    {
+        "name": "El resplandor",
+        "price": 14.99,
+        "genreId": 8
+    },
+    {
+        "name": "La guía del autoestopista galáctico",
+        "price": 9.99,
+        "genreId": 9
+    },
+    {
+        "name": "El halcón maltés",
+        "price": 12.99,
+        "genreId": 10
+    },
+    {
+        "name": "Ángeles y demonios",
+        "price": 10.99,
+        "genreId": 1
+    },
+    {
+        "name": "El señor de los anillos",
+        "price": 24.95,
+        "genreId": 2
+    },
+    {
+        "name": "Neuromancer",
+        "price": 10.99,
+        "genreId": 3
+    },
+    {
+        "name": "Bajo la misma estrella",
+        "price": 8.99,
+        "genreId": 4
+    },
+    {
+        "name": "Los asesinatos de la rue Morgue",
+        "price": 8.99,
+        "genreId": 5
+    },
+    {
+        "name": "Einstein: Su vida y su universo",
+        "price": 16.99,
+        "genreId": 6
+    },
+    {
+        "name": "1776",
+        "price": 13.99,
+        "genreId": 7
+    },
+    {
+        "name": "Drácula",
+        "price": 9.99,
+        "genreId": 8
+    },
+    {
+        "name": "El diario de Bridget Jones",
+        "price": 7.99,
+        "genreId": 9
+    },
+    {
+        "name": "La chica del tren",
+        "price": 11.99,
+        "genreId": 10
+    },
+    {
+        "name": "La Sombra del Viento",
+        "price": 11.99,
+        "genreId": 5
+    },
+    {
+        "name": "Juego de Tronos",
+        "price": 14.95,
+        "genreId": 2
+    },
+    {
+        "name": "1984",
+        "price": 9.99,
+        "genreId": 3
+    },
+    {
+        "name": "Los pilares de la Tierra",
+        "price": 20.95,
+        "genreId": 7
+    },
+    {
+        "name": "La Ladrona de Libros",
+        "price": 9.99,
+        "genreId": 7
+    },
+    {
+        "name": "Guerra Mundial Z",
+        "price": 10.99,
+        "genreId": 3
+    },
+    {
+        "name": "La Vida Secreta de las Abejas",
+        "price": 11.95,
+        "genreId": 4
+    },
+    {
+        "name": "El Psicoanalista",
+        "price": 9.95,
+        "genreId": 1
+    },
+    {
+        "name": "Cien años de soledad",
+        "price": 12.99,
+        "genreId": 2
+    },
+    {
+        "name": "El Alquimista",
+        "price": 10.95,
+        "genreId": 2
+    },
+    {
+        "name": "El Cuervo",
+        "price": 7.95,
+        "genreId": 8
+    },
+    {
+        "name": "La Broma Infinita",
+        "price": 13.99,
+        "genreId": 9
+    },
+    {
+        "name": "Matar a un Ruiseñor",
+        "price": 11.99,
+        "genreId": 5
+    },
+    {
+        "name": "El Silencio de los Corderos",
+        "price": 8.95,
+        "genreId": 10
+    },
+    {
+        "name": "El Mundo de Sofia",
+        "price": 10.99,
+        "genreId": 7
+    },
+    {
+        "name": "El Hobbit",
+        "price": 12.95,
+        "genreId": 2
+    }
+]

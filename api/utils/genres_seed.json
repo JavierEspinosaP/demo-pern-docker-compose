@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Thriller"
+    },
+    {
+        "id": 2,
+        "name": "Fantasía"
+    },
+    {
+        "id": 3,
+        "name": "Ciencia Ficción"
+    },
+    {
+        "id": 4,
+        "name": "Novela Romántica"
+    },
+    {
+        "id": 5,
+        "name": "Misterio"
+    },
+    {
+        "id": 6,
+        "name": "Biografía"
+    },
+    {
+        "id": 7,
+        "name": "Historia"
+    },
+    {
+        "id": 8,
+        "name": "Terror"
+    },
+    {
+        "id": 9,
+        "name": "Humor"
+    },
+    {
+        "id": 10,
+        "name": "Novela Negra"
+    }
+]
