@@ -1,6 +1,8 @@
 import { Button, Form, InputNumber, Select, Input } from "antd";
 import { useSelector, useDispatch } from "react-redux";
 import { create } from "../../../features/books/booksSlice";
+import './AddBook.css'
+
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -23,29 +25,32 @@ const AddBook = () => {
   };
 
   return (
-    <Form onFinish={onFinish} form={form}>
-      {" "}
-      {/**conecto la instancia que he creado a mi formulario */}
-      <Form.Item label="Book Name" name="name">
-        <Input placeholder="Book name" />
-      </Form.Item>
-      <Form.Item name="GenreId" label="Select Genres">
-        <Select mode="multiple" placeholder="Please select genre">
-          {selectInput}
-        </Select>
-      </Form.Item>
-      <Form.Item label="Price">
-        <Form.Item name="price" noStyle>
-          <InputNumber />
+    <section className='formContainer'>
+      <Form  onFinish={onFinish} form={form}>
+        {" "}
+        {/**conecto la instancia que he creado a mi formulario */}
+        <Form.Item label="Book Name" name="name">
+          <Input placeholder="Book name" />
         </Form.Item>
-        <span className="ant-form-text"> €</span>
-      </Form.Item>
-      <Form.Item>
-        <Button type="primary" htmlType="submit">
-          Submit
-        </Button>
-      </Form.Item>
-    </Form>
+        <Form.Item name="GenreId" label="Select Genres">
+          <Select mode="multiple" placeholder="Please select genre">
+            {selectInput}
+          </Select>
+        </Form.Item>
+        <Form.Item label="Price">
+          <Form.Item name="price" noStyle>
+            <InputNumber />
+          </Form.Item>
+          <span className="ant-form-text"> €</span>
+        </Form.Item>
+        <Form.Item>
+          <Button type="primary" htmlType="submit">
+            Submit
+          </Button>
+        </Form.Item>
+      </Form>
+    </section>
+
   );
 };
 

@@ -30,13 +30,29 @@ const EditModal = ({ visible, setVisible }) => {
   const dispatch = useDispatch();
 
   const onFinish = (values) => {
-      const bookWithId = { ...values, id: book.id };
-      dispatch(update(bookWithId));
-      setVisible(false);
-  };  
+    const bookWithId = { ...values, id: book.id };
+    dispatch(update(bookWithId));
+    setVisible(false);
+  };
+
+  const handleClose = () => {
+    setVisible(false);
+  }
 
   return (
-    <Modal title="Edit Book" open={visible} footer={[]}>
+    <Modal 
+      title="Edit Book" 
+      visible={visible} 
+      onCancel={handleClose}
+      footer={[
+        <Button key="back" onClick={handleClose}>
+          Cancel
+        </Button>,
+        <Button key="submit" type="primary" htmlType="submit" onClick={onFinish}>
+          Submit
+        </Button>,
+      ]}
+    >
       <Form onFinish={onFinish} form={form}>
         <Form.Item label="Book Name" name="name">
           <Input placeholder="Book name" />
@@ -51,11 +67,6 @@ const EditModal = ({ visible, setVisible }) => {
             <InputNumber />
           </Form.Item>
           <span className="ant-form-text"> €</span>
-        </Form.Item>
-        <Form.Item>
-          <Button type="primary" htmlType="submit">
-            Submit
-          </Button>
         </Form.Item>
       </Form>
     </Modal>

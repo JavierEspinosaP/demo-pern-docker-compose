@@ -1,0 +1,36 @@
+.bookCard {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px 20px 20px;
+    font-size: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    align-items: center;
+    margin: 15px;
+    -webkit-box-shadow: 1px 6px 15px -5px #000000; 
+    box-shadow: 1px 6px 15px -5px #000000;
+    /* Agregar transición */
+    transition: all 0.1s ease;
+}
+
+.bookCard:hover {
+    /* Agrandar un poco la sombra */
+    -webkit-box-shadow: 1px 6px 20px -5px #000000; 
+    box-shadow: 1px 6px 20px -5px #000000;
+}
+
+
+.booksContainer {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+}
+
+.bookButtons{
+    display: flex;
+    gap: 10px;
+}
