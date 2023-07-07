@@ -40,9 +40,10 @@ const EditModal = ({ visible, setVisible }) => {
   }
 
   return (
-    <Modal 
-      title="Edit Book" 
-      visible={visible} 
+    <Modal
+      forceRender
+      title="Edit Book"
+      open={visible}
       onCancel={handleClose}
       footer={[
         <Button key="back" onClick={handleClose}>

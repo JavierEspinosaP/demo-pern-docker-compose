@@ -4,6 +4,7 @@ import { create } from "../../../features/books/booksSlice";
 import './AddBook.css'
 
 
+
 const AddBook = () => {
   const dispatch = useDispatch();
   const { Option } = Select;
@@ -17,13 +18,14 @@ const AddBook = () => {
     );
   });
 
-  const [form] = Form.useForm(); // instancia del formulario
+
 
   const onFinish = (values) => {
     dispatch(create(values));
     form.resetFields(); // llamamos a la instancia y ejecutamos su metodo resetFields
   };
 
+  const [form] = Form.useForm(); // instancia del formulario
   return (
     <section className='formContainer'>
       <Form  onFinish={onFinish} form={form}>
