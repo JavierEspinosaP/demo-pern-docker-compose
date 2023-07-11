@@ -1,15 +1,15 @@
-<h1 align="center">Proyecto MERN</h1>
+<h1 align="center">Proyecto PERN</h1>
 <p align="center">
  <img src="https://github.com/JavierEspinosaP/demo-mern-docker-compose/assets/103537170/3d755e23-0ed2-4059-9023-96c1ec27f41d" width="700" height="370">
 </p>
 
-<p align="center"> En este proyecto se utilizan las tecnologías necesarias para desarrollar una aplicación MERN completa(MongoDB, ExpressJS, ReactJS, NodeJS), así como otras interesantes como Sequelize y Redux. Se compone de una base de datos SQL, una API REST y un front desarrollado en ReactJS</p>
+<p align="center"> En este proyecto se utilizan las tecnologías necesarias para desarrollar una aplicación PERN completa(PostgreSQL, ExpressJS, ReactJS, NodeJS), así como otras interesantes como Sequelize y Redux. Se compone de una base de datos SQL, una API REST y un front desarrollado en ReactJS</p>
 
 ## Getting Started
 
  * 1.- Forkea y clona tu repo
  * 2.- Abre Docker Desktop
- * 3.- En la terminal, sitúate en la carpeta padre (demo-mern-docker-compose) y ejecuta los comandos 
+ * 3.- En la terminal, sitúate en la carpeta padre (demo-pern-docker-compose) y ejecuta los comandos 
  ``` docker-compose build ``` y ``` docker-compose up ```, esto creará los contenedores de la base de datos, de la API y del proyecto React. Deberías ver algo así 👇
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 
  * 4.- A continuación vamos a introducir los datos en la BBDD, para ello necesitamos ejecutar dos comandos, uno creará las tablas y otro introducirá los seeds con la información en cada una de ellas.
-   Abre una terminal nueva sin cerrar la actual, recuerda acceder a la carpeta clonada antes de introducir nuevos comandos (```cd demo-mern-docker-compose```)
+   Abre una terminal nueva sin cerrar la actual, recuerda acceder a la carpeta clonada antes de introducir nuevos comandos (```cd demo-pern-docker-compose```)
 *  5.- Una vez en la carpeta clonada, introduce en terminal:
   
    - "```docker-compose exec api npx sequelize-cli db:migrate```" (Accede al contenedor "api" donde corre el servidor, y crea las tablas en la base de datos.
