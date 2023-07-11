@@ -8,7 +8,7 @@ const EditModal = ({ visible, setVisible }) => {
   const { genres } = useSelector((state) => state.genres);
   const { book } = useSelector((state) => state.books);
 
-  const [form] = Form.useForm();
+
   const GenreId = book.Genres?.map((element) => element.id)
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const EditModal = ({ visible, setVisible }) => {
   const handleClose = () => {
     setVisible(false);
   }
-
+  const [form] = Form.useForm();
   return (
     <Modal
       forceRender
@@ -46,12 +46,8 @@ const EditModal = ({ visible, setVisible }) => {
       open={visible}
       onCancel={handleClose}
       footer={[
-        <Button key="back" onClick={handleClose}>
-          Cancel
-        </Button>,
-        <Button key="submit" type="primary" htmlType="submit" onClick={onFinish}>
-          Submit
-        </Button>,
+
+
       ]}
     >
       <Form onFinish={onFinish} form={form}>
@@ -69,6 +65,12 @@ const EditModal = ({ visible, setVisible }) => {
           </Form.Item>
           <span className="ant-form-text"> €</span>
         </Form.Item>
+        <Button key="submit" type="primary" htmlType="submit" onClick={onFinish}>
+          Submit
+        </Button>
+        <Button key="back" onClick={handleClose}>
+          Cancel
+        </Button>,
       </Form>
     </Modal>
   );

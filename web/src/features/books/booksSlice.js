@@ -39,6 +39,7 @@ export const getById = createAsyncThunk("books/getById", async (id) => {
 });
 
 export const update = createAsyncThunk("books/update", async (book) => {
+
   try {
     return await booksService.update(book);
   } catch (error) {
@@ -68,10 +69,11 @@ export const booksSlice = createSlice({
       })
       .addCase(update.fulfilled, (state, action) => {
         const books = state.books.map((book) => {
+
           if (book.id === action.payload.book.id) {
             book = action.payload.book;
           }
-          return book;
+          return book;            
         });
         state.books = books;
       });
