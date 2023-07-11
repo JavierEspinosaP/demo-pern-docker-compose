@@ -59,16 +59,19 @@ POST http://localhost:4000/books
 
 Body:
 Example 1
+```
 {
   "name": "Fray Perico y su borrico",
   "price": 10
 }
+```
 Example 2
+```
 {
   "name": "El Guardián entre el Centeno",
   "price": 12
 }
-
+```
 Return all books
 
 GET http://localhost:4000/books
@@ -78,12 +81,12 @@ Edit an existent post by ID
 PUT http://localhost:4000/books/:id
 
 Body with new data:
-
+```
 {
   "name": "1984",
   "price": 24
 }
-
+```
 
 Delete an existent post by ID
 
@@ -100,7 +103,8 @@ Create new genre
 POST http://localhost:4000/genres
 
 Body:
-
+```
 {
   "name": "Science Fiction"
 }
+```
