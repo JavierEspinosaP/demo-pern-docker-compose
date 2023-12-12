@@ -16,6 +16,10 @@
     transition: all 0.1s ease;
 }
 
+.bookCard > h2 {
+    min-height: 48px;
+}
+
 .bookCard:hover {
     /* Agrandar un poco la sombra */
     -webkit-box-shadow: 1px 6px 20px -5px #000000; 

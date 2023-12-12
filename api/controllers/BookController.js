@@ -16,6 +16,7 @@ const BookController = {
           { model: Genre, attributes: ["name"], through: { attributes: [] } },
         ],
       });
+      console.log(books);
       res.send(books);
     } catch (error) {
       console.error(error);

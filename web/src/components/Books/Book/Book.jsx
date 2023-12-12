@@ -15,6 +15,7 @@ const Book = () => {
     setIsModalVisible(true);
   };
 
+
   const book = books.map((book) => {
     return (
       <div className="bookCard" key={book.id}>
